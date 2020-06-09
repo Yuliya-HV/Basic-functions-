@@ -51,6 +51,6 @@ def convert_to_float(entity):
         if len(_entity) == 0:
             _entity = ['0']
     except Exception as e:
-        print('Resolver rejected an input due to unexpected error :: ', str(e))
+        print('The function rejected an input due to unexpected error :: ', str(e))
 
     return float(''.join(_entity))
